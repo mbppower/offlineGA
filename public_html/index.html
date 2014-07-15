@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Offline GA</title>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="src/offlineGA.js"></script>
+		<script type="text/javascript">
+			var _ogaq = new offlineGA();
+			_ogaq.push(['_setAccount', 'UA-XXXXXXXX-X']);
+		</script>
+	</head>
+	<body>
+		<script>
+			_ogaq.push(['_trackPageview', '/page_test/']);
+			var i = 0;
+			while(i < 20){
+				_ogaq.push(['_trackPageview', '/page_loop/' + i]);
+				i++;
+			}
+		</script>
+	</body>
+</html>
