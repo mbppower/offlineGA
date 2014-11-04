@@ -2,6 +2,13 @@
  *  @author Marcel Barbosa Pinto
  *  @email marcel.power@gmail.com
  *  @git: https://github.com/mbppower/offlineGA.git
+ *  @deprecated Please, use offlineAnalytcs.js
+ *  
+ *  Example code:
+ *		var _ogaq = new offlineGA();
+ *		_ogaq.push(['_setAccount', 'UA-XXXXXXXX-X']);
+ *		_ogaq.push(['_trackPageview', '/app/my/page/view']);
+ *		
  */
 var _gaq = _gaq || [];
 
