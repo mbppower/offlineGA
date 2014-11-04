@@ -13,5 +13,5 @@ Example:<br/><br/>
 var _ogaq = new offlineGA();<br/>
 _ogaq('create', 'UA-XXXXXXXX-X', 'auto');<br/>
 _ogaq('set', 'checkProtocolTask', null); // Disable file:// protocol checking.<br/>
-_ogaq('set', 'checkStorageTask', null); // Disable cookie enable checking. Use this if your webview doesn't support cookies<br/>
+_ogaq('set', 'checkStorageTask', null); // Disable cookie checking, use this if your webview doesn't support cookies<br/>
 _ogaq('send', 'pageview', '/app/my/page'); // Send page view.<br/>
